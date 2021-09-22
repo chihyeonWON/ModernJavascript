@@ -12,7 +12,7 @@ function Card(suit,rank){
 var card = new Card("하트","A");
 
 //Object.create로 생성하는 방법
-var card = Object.create(Objet.prototype,{
+var card = Object.create(Object.prototype,{
     suit:{
         value:"하트",
         writable:true,
