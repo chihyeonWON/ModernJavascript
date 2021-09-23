@@ -6,4 +6,3 @@ Object.defineProperty(person,"name",{
 });
 Object.getOwnPropertyDescriptor(person,"name");
 //->value:"Tom",writable:false,enumeralbe:true,configurable:true
-
