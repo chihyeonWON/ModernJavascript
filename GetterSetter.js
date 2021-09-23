@@ -4,7 +4,7 @@ var person = {
         return this._name;
     },
     set name(value) {
-        var str = value.charAt(0).toUppearCase() + value.substring(1);
+        var str = value.charAt(0).toUpperCase() + value.substring(1);
         this._name = str;
     }
 }; 
