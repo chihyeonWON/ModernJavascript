@@ -14,3 +14,8 @@ var point = {
 };
 console.log(point.r); //1.4142135623730951
 console.log(point.theta); //0.7853981633974483
+point.polarCoordinates = {
+    r:2,
+    theta:Math.PI/4
+};
+console.log(point); //{x: 1.4142135623730951, y: 1.414213562373095}
